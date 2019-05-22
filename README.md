@@ -42,7 +42,7 @@ $ rm -rf .git
 
 $ git init
 
-$ hub create JEVBR/react_boilerplate_JEVBR
+$ hub create JEVBR/new_project_name
 
 $ git add .
 
