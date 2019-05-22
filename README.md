@@ -1,17 +1,3 @@
-Create new projet from this boilerplate:
-
-goto folder wher you want the new project
-git clone git@github.com: thisname new_project_name
-cd ew_project_name
-yarn install
-rm -rf .git
-git init
-hub create JEVBR/react_boilerplate_JEVBR
-git add .
-git commit -m "first commit"
-yarn start
-
-
 # react-boilerplate
 
 Simple react starter with the following config:
@@ -42,3 +28,15 @@ To build and deploy your app to `gh-pages` branch on the GitHub repo:
 ```bash
 yarn deploy
 ```
+# Create new project from this boilerplate:
+
+ - goto the folder where you want the new project
+$ git clone git@github.com:JEVBR/react_boilerplate_JEVBR.git new_project_name
+$ cd new_project_name
+$ yarn install
+$ rm -rf .git
+$ git init
+$ hub create JEVBR/react_boilerplate_JEVBR
+$ git add .
+$ git commit -m "first commit"
+$ yarn start
