@@ -31,12 +31,22 @@ yarn deploy
 # Create new project from this boilerplate:
 
  - goto the folder where you want the new project
+ 
 $ git clone git@github.com:JEVBR/react_boilerplate_JEVBR.git new_project_name
+
 $ cd new_project_name
+
 $ yarn install
+
 $ rm -rf .git
+
 $ git init
+
 $ hub create JEVBR/react_boilerplate_JEVBR
+
 $ git add .
+
 $ git commit -m "first commit"
+
 $ yarn start
+
